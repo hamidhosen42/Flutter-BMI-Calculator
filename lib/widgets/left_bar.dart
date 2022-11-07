@@ -3,9 +3,9 @@
 import 'package:bmi_calculator/constants/app_constants.dart';
 import 'package:flutter/cupertino.dart';
 
-class LeftVar extends StatelessWidget {
+class LeftBar extends StatelessWidget {
   final double barWidth;
-  const LeftVar({super.key, required this.barWidth});
+  const LeftBar({super.key, required this.barWidth});
 
   @override
   Widget build(BuildContext context) {
